@@ -18,5 +18,5 @@
 After you finish your coding, remember to upload your code from local to github
 1. `git add [filename]`
 2. `git commit -m [notes]`
-3. `git push`
+3. `git push --set-upstream origin [your branch]`
 Or... I'll do a live demo during next meeting for simpler way to upload code
