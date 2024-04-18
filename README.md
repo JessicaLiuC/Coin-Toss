@@ -28,10 +28,3 @@ Or... I'll do a live demo during next meeting for simpler way to upload code :p
 1. `cd` to the main branch
 2. `git pull`
 3. `git merge [your branch]`
-
-## Install the phospher icons
-1. `npm i @phosphor-icons/react`
-2. `npm install @phosphor-icons/react react-native-svg`
-3. `npm install --save-dev react-native-svg-transformer`
-4. `npm install -g react-native-cli`
-import what you need to your local file

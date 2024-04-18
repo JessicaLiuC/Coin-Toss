@@ -7,6 +7,8 @@ import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 import HouseSvg from '@/assets/dist/House.js';
+import AirplaneTilt from '@/assets/dist/AirplaneTilt.js'
+import UserCircle from '@/assets/dist/UserCircle.js'
 
 
 // You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
@@ -28,8 +30,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Home',
+          tabBarIcon: ({ color }) => <HouseSvg name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
               <Pressable>
@@ -49,15 +51,15 @@ export default function TabLayout() {
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Plan a trip',
+          tabBarIcon: ({ color }) => <AirplaneTilt name="code" color={color} />,
         }}
       />
       <Tabs.Screen
         name="three"
         options={{
-          title: 'Tab Three',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <UserCircle name="code" color={color} />,
         }}
       />
     </Tabs>
