@@ -28,3 +28,96 @@ Or... I'll do a live demo during next meeting for simpler way to upload code :p
 1. `cd` to the main branch
 2. `git pull`
 3. `git merge [your branch]`
+
+## Buttons you might need to use are here:
+1. Direction Button:
+    <!-- <DirectionButton
+    text = "Direction"
+    background = "#6750A4"
+    style = {styles.emptyHome}
+    textcolor = "white"
+    onClick = {handleClick}
+    /> -->
+2. Coin Toss Button:
+    - With background:
+        <!-- <CoinTossButton
+        text = "Coin Toss"
+        fill = "white"
+        background = "#6750A4"
+        style = {styles.emptyHome}
+        textcolor = "white"
+        onClick = {handleClick}
+        /> -->
+    - Without background;
+        <!-- <CoinTossButton
+        text = "Coin Toss"
+        fill = "#6750A4"
+        background = "white"
+        style = {[styles.emptyHome, {borderColor:"#6750A4"}]}
+        textcolor = "#6750A4"
+        onClick = {handleClick}
+        /> -->
+3. Plan a trip button:
+    <!-- <PlanATripButton
+    text = "Plan a trip"
+    background = "#6750A4"
+    style = {styles.emptyHome}
+    textcolor = "white"
+    onClick = {handleClick}
+    /> -->
+4. Favorite button (single heart):
+    <!-- <FavoriteButton
+    fill = "#ffffff"
+    background = "#6750A4"
+    style = {styles.emptyHome}
+    onClick = {handleClick}
+    /> -->
+5. Text button:
+    - Next with background:
+        <!-- <TextButton
+        text = "Next"
+        background = "#6750A4"
+        textcolor = "white"
+        style = {styles.emptyHome}
+        onClick = {handleClick}
+        /> -->
+    - Next without background:
+        <!-- <TextButton
+        text = "Next"
+        background = "#DADADB"
+        textcolor = "#98979A"
+        style = {styles.emptyHome}
+        onClick = {handleClick}
+        /> -->
+    - Skip without background:
+        <!-- <TextButton
+        text = "skip"
+        background = "transparent"
+        textcolor = "#6750A4"
+        style = {styles.emptyHome}
+        onClick = {handleClick}
+        /> -->
+    - Generate Itinerary:
+        <!-- <TextButton
+        text = "Generate itinerary"
+        background = "#6750A4"
+        textcolor = "white"
+        style = {styles.emptyHome}
+        onClick = {handleClick}
+        /> -->
+    - Regenerate button:
+        <!-- <RegenerateProcessButton
+        text = "Regenerate"
+        background = "transparent"
+        textcolor = "#6750A4"
+        style = {[styles.emptyHome, {borderColor:"#6750A4"}]}
+        onClick = {handleClick}
+        /> -->
+    - Process:
+        <!-- <RegenerateProcessButton
+        text = "Process"
+        background = "#6750A4"
+        textcolor = "white"
+        style = {styles.emptyHome}
+        onClick = {handleClick}
+        /> -->
